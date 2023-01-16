@@ -1,0 +1,191 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 10px 30px;
+}
+
+h1{
+  font-size: 1.1rem;
+  color: rgb(32, 32, 32);
+  margin-top: 12px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#video{
+  width: 70%;
+}
+
+nav img{
+  height: 20px;
+  width: 20px;
+}
+
+#camera{
+  height: 28px;
+  width: 28px;
+
+}
+
+#logo{
+  width: 85px;
+  height: 20px;
+}
+
+
+#notification, #logo, .user{
+  margin-left: 25px;
+
+}
+
+
+.search-mic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.camera-notification{
+  display: flex;
+  align-items: center; 
+}
+
+
+input{
+  padding: 13px;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+  width: 40vw;
+  border: 1px solid rgb(196, 196, 196);
+  border-width: 1px 0 1px 1px;
+}
+
+input::placeholder{
+  font-size: 18px;
+}
+
+input:focus{
+  outline: 1px solid blue;
+  border: 0;
+}
+
+.mic-container{
+  background-color: rgb(245, 245, 245);
+  border-radius: 50px;
+  padding: 9px 11px;
+  margin-left: 10px;
+}
+
+.user{
+  background-color: rgb(230, 29, 29);
+  color: white;
+  border-radius: 50%;
+  padding: 9px 11px;
+}
+
+.search-container{
+  background-color: rgb(240, 240, 240);
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  padding: 10px 22px;
+  border: 1px solid rgb(196, 196, 196);
+
+}
+
+#search-icon, #mic{
+  height: 17px;
+  width: 17px;
+}
+
+
+main{
+  display: flex;
+  padding: 35px 35px 0 0;
+  gap: 23px;
+}
+
+
+#suggestions{
+  margin-top: 12px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+#suggestions>a{
+  
+  background-color: rgb(240, 240, 240);
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+
+}
+
+.first-preview.preview{
+  margin-top: 30px;
+}
+
+.preview{
+  margin-top: 5px;
+  display: flex;
+  gap: 10px;
+}
+
+.content{
+  margin-bottom: 4px;
+}
+
+.content-title{
+  text-decoration: none;
+  color: rgb(46, 46, 46);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.4em;
+ 
+}
+
+.content-sub-title{
+  font-size: 12px;
+  color: rgb(94, 94, 94);
+}
+
+
+.views{
+  font-size: 13px;
+  color: rgb(32, 32, 32);
+  font-weight: 600;
+}
+
+.descriptions{
+  font-size: 14px;
+  color: rgb(49, 49, 49);
+  margin-top: 6px;
+  line-height: 1.4em;
+}
+
+.descriptions>a{
+  text-decoration: underline;
+  color: blue;
+}
+
+#video>article{
+  margin-top: 20px;
+  padding: 15px;
+  background-color: rgb(240, 240, 240);
+  border-radius: 10px;
+
+}
